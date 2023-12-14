@@ -8,28 +8,144 @@
     <title>Home Page</title>
   </head>
   <body>
-    <header class="site-header">
-      <nav class="site-header__nav">
-        <ul class="site-header__ul">
-          <li class="site-header__li">
-            <a class="site-header__a" href="/index.html">Travel Site</a>
-          </li>
-          <div class="site-header__wrapper">
+    <div class="container">
+      <header class="site-header">
+        <nav class="site-header__nav">
+          <ul class="site-header__ul">
             <li class="site-header__li">
-              <a class="site-header__a" href="/index.html">Home</a>
+              <a class="site-header__a site-header__logo" href="/index.html"
+                >Travel Site</a
+              >
             </li>
-            <li class="site-header__li">
-              <a class="site-header__a" href="/pages/hawaii.html">Hawaii</a>
-            </li>
-            <li class="site-header__li">
-              <a class="site-header__a" href="/pages/iceland.html">Iceland</a>
-            </li>
-            <li class="site-header__li">
-              <a class="site-header__a" href="/pages/greece.html">Greece</a>
-            </li>
+            <div class="site-header__wrapper">
+              <li class="site-header__li">
+                <a
+                  class="site-header__a site-header__a--active"
+                  href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="site-header__li">
+                <a
+                  class="site-header__a site-header__a--adjust"
+                  href="/pages/hawaii.html"
+                  >Hawaii</a
+                >
+              </li>
+              <li class="site-header__li">
+                <a
+                  class="site-header__a site-header__a--adjust"
+                  href="/pages/iceland.html"
+                  >Iceland</a
+                >
+              </li>
+              <li class="site-header__li">
+                <a class="site-header__a" href="/pages/greece.html">Greece</a>
+              </li>
+            </div>
+          </ul>
+        </nav>
+      </header>
+      <section class="herosection">
+        <article class="hero">
+          <h1 class="hero__title">Travelling Comes With Endless Discoveries</h1>
+          <p class="hero__description">
+            Don't let your dreams be just dreams. Experience the world by
+            booking a vacation with us now.
+          </p>
+          <button class="hero__button">Get started</button>
+        </article>
+        <article>
+          <img
+            class="hero__img"
+            src="/assets/Images/hero.png"
+            alt="travelling
+        around the globe"
+          />
+        </article>
+      </section>
+
+      <main>
+        <p class="card">Recommendations</p>
+        <div class="card">
+          <article class="card__hawaii">
+            <img
+              class="card__img"
+              src="/assets/Images/hawaii.jpg"
+              alt="Hawaii"
+            />
+            <h2 class="card__title">Hawaii</h2>
+          </article>
+          <article class="card">
+            <img
+              class="card__img"
+              src="/assets/Images/iceland.jpg"
+              alt="Iceland"
+            />
+            <h2 class="card__title">Iceland</h2>
+          </article>
+          <article class="card__greece">
+            <img
+              class="card__img"
+              src="/assets/Images/greece.jpg"
+              alt="Greece"
+            />
+            <h2 class="card__title">Greece</h2>
+          </article>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__contact">
+          <h3 class="footer__title">Contact</h3>
+          <p class="footer__subtitle">EMAIL</p>
+          <p class="footer__content">info@travelsite.com</p>
+        </div>
+        <div class="footer__hours">
+          <h3 class="footer__title">Hours</h3>
+          <div class="footer__hours--container">
+            <article class="footer__hours--1">
+              <p class="footer__subtitle footer__subtitle-adjust">
+                MONDAY-FRIDAY
+              </p>
+              <p class="footer__content">9:00 AM - 5:00 PM</p>
+            </article>
+
+            <article class="footer__hours--2">
+              <p class="footer__subtitle footer__subtitle-adjust">SATURDAY</p>
+              <p class="footer__content">10:00 AM - 4:00 PM</p>
+            </article>
+
+            <article class="footer__hours--3">
+              <p class="footer__subtitle footer__subtitle-adjust">SUNDAY</p>
+              <p class="footer__content">Closed</p>
+            </article>
           </div>
-        </ul>
-      </nav>
-    </header>
+        </div>
+
+        <div class="footer__social">
+          <h3 class="footer__title">Social</h3>
+          <article>
+            <img
+              class="footer__social--icon"
+              src="/assets/Icons/icon-instagram.png"
+              alt="instagram"
+            />
+
+            <img
+              class="footer__social--icon"
+              src="/assets/Icons/icon-facebook.png"
+              alt="facebook"
+            />
+
+            <img
+              class="footer__social--icon"
+              src="/assets/Icons/icon-twitter.png"
+              alt="twitter"
+            />
+          </article>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
