@@ -8,13 +8,18 @@ body {
   box-sizing: border-box;
 }
 
+.header__nav {
+  max-width: 72rem;
+  margin: auto;
+}
+
 .header__ul {
   display: flex;
   justify-content: space-between;
   background-color: #ffffff;
-  padding: 0 3.75rem;
   margin-bottom: 0.5rem;
-  height: 2.25rem;
+  height: 2rem;
+  padding-left: 0;
 }
 
 .header__wrapper {
