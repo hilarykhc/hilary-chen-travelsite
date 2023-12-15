@@ -8,7 +8,7 @@ body {
   box-sizing: border-box;
 }
 
-.site-header__ul {
+.header__ul {
   display: flex;
   justify-content: space-between;
   background-color: #ffffff;
@@ -17,30 +17,30 @@ body {
   height: 2.25rem;
 }
 
-.site-header__wrapper {
+.header__wrapper {
   display: flex;
   justify-content: space-between;
   padding: 0 0 0 2.5rem;
 }
 
-.site-header__li {
+.header__li {
   list-style-type: none;
   height: 2rem;
 }
 
-.site-header__a {
+.header__a {
   text-decoration: none;
   padding: 1rem;
   color: black;
 }
 
-.site-header__logo {
+.header__logo {
   color: #335576;
   font-weight: bold;
   font-size: larger;
 }
 
-.site-header__a--adjust {
+.header__a--adjust {
   padding-right: 0;
 }
 

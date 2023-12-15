@@ -1,11 +1,11 @@
-.site-header__a--active {
+.header__a--active {
   border-bottom: 0.2rem solid #db7a4e;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 0.5rem;
 }
 
-.site-header__greece {
+.header__greece {
   margin-right: 1rem;
 }
 
@@ -39,7 +39,7 @@ main.destination__greece {
 .card__destination {
   display: flex;
   justify-content: space-between;
-  margin-top: 5.5rem;
+  margin-top: 3.5rem;
 }
 
 .card__heading {
@@ -47,7 +47,7 @@ main.destination__greece {
   padding-top: 5rem;
   margin-left: 4.75rem;
   margin-top: 0;
-  font-size: xx-large;
+  font-size: xxx-large;
 }
 
 .card__wrapper {
