@@ -1,3 +1,10 @@
+.site-header__a--home {
+  border-bottom: 0.2rem solid #db7a4e;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0.5rem;
+}
+
 section.herosection {
   background-color: #fefaf5;
   color: #335576;
@@ -58,6 +65,12 @@ div.card {
 .card__title {
   margin-top: -2.5rem;
   color: #fff;
+}
+
+.card__hawaii--link,
+.card__iceland--link,
+.card__greece--link {
+  text-decoration: none;
 }
 
 .card__hawaii {
