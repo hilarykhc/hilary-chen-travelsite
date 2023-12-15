@@ -15,14 +15,55 @@ main {
 }
 .card__destination {
   display: flex;
+  justify-content: space-between;
+  margin-top: 5.5rem;
 }
 
 .card__heading {
   color: #fff;
-}
-.card__hawaii--item {
-  list-style-type: none;
+  padding-top: 5rem;
+  margin-left: 4.75rem;
+  margin-top: 0;
+  font-size: xx-large;
 }
 
 .card__wrapper {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 17rem;
+  height: 24rem;
+  text-align: center;
+}
+
+.card__hawaii--subheading {
+  border-bottom: 2px solid;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.card__hawaii--list {
+  padding-left: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.card__hawaii--item {
+  list-style-type: none;
+  border: 1px solid #fefaf5;
+  background-color: #fefaf5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  margin-top: 1.5rem;
+}
+
+.card__wrapper--friday {
+  margin-left: 12.5rem;
+}
+
+.card__wrapper--sunday {
+  margin-right: 12.5rem;
 }

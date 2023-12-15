@@ -44,7 +44,7 @@ p.card {
   color: #335576;
   font-weight: bold;
   font-size: larger;
-  margin: 2.5rem 4.75rem;
+  margin: 3.75rem 4.75rem 2.5rem 4.75rem;
 }
 
 div.card {
@@ -53,18 +53,16 @@ div.card {
 }
 
 .card__title {
-  padding-left: 7.5rem;
+  padding-left: 9.75rem;
+  margin-top: -3rem;
+  color: #fff;
 }
 .card__img {
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  width: 15rem;
+  width: 17rem;
+  height: 24rem;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
-}
-
-.card__title {
-  margin-top: -2.5rem;
-  color: #fff;
 }
 
 .card__hawaii--link,
@@ -82,5 +80,5 @@ div.card {
 }
 
 main {
-  height: 31.25rem;
+  height: 34.25rem;
 }
