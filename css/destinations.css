@@ -1,11 +1,15 @@
-.site-header__a--hawaii {
+.site-header__a--active {
   border-bottom: 0.2rem solid #db7a4e;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 0.5rem;
 }
 
-main {
+.site-header__greece {
+  margin-right: 1rem;
+}
+
+main.destination__hawaii {
   background-image: url(/assets/Images/hawaii.jpg);
   background-position: center;
   background-size: cover;
@@ -13,6 +17,25 @@ main {
   height: 43.75rem;
   margin: 0;
 }
+
+main.destination__iceland {
+  background-image: url(/assets/Images/iceland.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 43.75rem;
+  margin: 0;
+}
+
+main.destination__greece {
+  background-image: url(/assets/Images/greece.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 43.75rem;
+  margin: 0;
+}
+
 .card__destination {
   display: flex;
   justify-content: space-between;
