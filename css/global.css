@@ -52,9 +52,16 @@ body {
 .footer {
   background-color: #fefaf5;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   height: 12.5rem;
 }
+
+/*.footer__container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 55rem;
+  margin: auto;
+}*/
 
 .footer__title,
 .footer__content {
@@ -83,17 +90,22 @@ body {
 }
 
 .footer__contact {
-  margin-left: 6.75rem;
   margin-top: 2rem;
+  margin-left: 12.5rem;
 }
 
 .footer__social {
-  margin-right: 5.75rem;
   margin-top: 2rem;
+  margin-right: 12.5rem;
 }
 
 .footer__social--icon {
   height: 1.5rem;
   margin-top: 1.25rem;
   margin-right: 1rem;
+}
+
+.footer__social--adjust {
+  height: 1.5rem;
+  margin-right: 0;
 }

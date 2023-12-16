@@ -60,6 +60,8 @@ p.card {
 div.card {
   display: flex;
   justify-content: space-between;
+  max-width: 55rem;
+  margin: auto;
 }
 
 .card__title {
@@ -79,14 +81,6 @@ div.card {
 .card__iceland--link,
 .card__greece--link {
   text-decoration: none;
-}
-
-.card__hawaii {
-  margin-left: 12.5rem;
-}
-
-.card__greece {
-  margin-right: 12.5rem;
 }
 
 main {
