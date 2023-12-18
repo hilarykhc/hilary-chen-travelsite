@@ -13,7 +13,7 @@ body {
   margin: auto;
 }
 
-.header__ul {
+.header__list {
   display: flex;
   justify-content: space-between;
   background-color: #ffffff;
@@ -28,12 +28,12 @@ body {
   padding: 0 0 0 2.5rem;
 }
 
-.header__li {
+.header__item {
   list-style-type: none;
   height: 2rem;
 }
 
-.header__a {
+.header__link {
   text-decoration: none;
   padding: 1rem;
   color: black;
@@ -45,7 +45,7 @@ body {
   font-size: larger;
 }
 
-.header__a--adjust {
+.header__link--adjust {
   padding-right: 0;
 }
 
